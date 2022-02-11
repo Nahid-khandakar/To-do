@@ -24,14 +24,14 @@
 
         <div class="input-group mb-3 w-50 align-self-center ">
 
-            <input type="text" class="form-control m-1" aria-describedby="button-addon2">
-            <button class="btn btn-primary m-2" type="button">ADD</button>
+            <input id="input-text" type="text" class="form-control m-1" aria-describedby="button-addon2">
+            <button id="add-btn" class="btn btn-primary m-2" type="button">ADD</button>
         </div>
 
         <!-- tabel div  -->
-        <div class="w-50">
+        <div class="w-50 ">
 
-            <table class="table align-middle ms-2">
+            <table class="table align-middle ms-2 ">
                 <thead>
                     <tr>
                         <th scope="col">Number</th>
@@ -40,25 +40,11 @@
                     </tr>
                 </thead>
 
-                <tbody>
-
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Java</td>
-                        <td>
-                            <button type="button" class="btn btn-success">Success</button>
-                            <button type="button" class="btn btn-danger">Danger</button>
-                        </td>
-
-                    </tr>
-
+                <tbody id="table-data">
                 </tbody>
             </table>
 
         </div>
-
-
-
     </section>
 
 
