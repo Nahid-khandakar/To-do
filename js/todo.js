@@ -33,6 +33,9 @@ document.getElementById('add-btn').addEventListener('click', function () {
             event.target.parentNode.parentNode.style.textDecoration = 'line-through';
         })
     }
+
+    document.getElementById('input-text').value = '';
+
 })
 
 
